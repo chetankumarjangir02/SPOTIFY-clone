@@ -1,0 +1,55 @@
+.item-centre{
+    align-items: center;
+}
+.justify-centre{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert();
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Works in Firefox, Chrome, Safari */
+/* Width and color */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* Dark color for scrollbar */
+    border-radius: 6px; /* Rounded corners */
+    border: 3px solid #333; /* Darker border */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Lighter color on hover */
+  }
+  
